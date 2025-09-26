@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Jump </title>
+    <link rel="shortcut icon" href="icono.ico" type="image/x-icon">
+   
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div style="position: relative; display: inline-block;">
+        <canvas id="juego" width="1365" height="603"></canvas>
+
+        <!-- Botón Pausa -->
+        <button id="btnPausa" class="btn oculto">Pausar</button>
+        <div id="marcador" class="score">
+            Puntos: 0
+        </div>
+
+
+        <!-- Botón Play inicial -->
+        <div id="pantallaInicio" class="overlay">
+            <button id="btnPlay" class="btn grande">▶ Play</button>
+        </div>
+
+        <!-- Botón Reinicio cuando pierdes -->
+        <div id="pantallaReinicio" class="overlay oculto">
+            <button id="btnReiniciar" class="btn grande">↻ Reiniciar</button>
+        </div>
+    </div>
+
+   
+
+<script src="script.js"></script>
+</body>
+
+</html>
